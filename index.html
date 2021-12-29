@@ -1,0 +1,264 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <title>Icon ~ Coffee</title>
+    <style>
+        header {
+            background: url(Images/hero_banner.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 800px;
+        }
+
+        .brand-logo {
+            top: 5px;
+        }
+
+        .section {
+            padding: 4vw 0 4vw 0;
+        }
+
+        @media screen and (max-width: 670px) {
+            header {
+                min-height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body class="blue-grey lighten-5">
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <img src="Images/icon_coffee_small.png" class="brand-logo"></img>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#recruitment">Recruitment</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#" class="btn-floating btn-small grey darken-1">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </a></li>
+                    <li><a href="#" class="btn-floating btn-small grey darken-1">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a></li>
+                    <li><a href="#" class="btn-floating btn-small grey darken-1">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a class="indigo-text darken-4" href="#">Menu</a></li>
+                    <li><a class="indigo-text darken-4" href="#">Gallery</a></li>
+                    <li><a class="indigo-text darken-4" href="#recruitment">Recruitment</a></li>
+                    <li><a class="indigo-text darken-4" href="#contact">Contact Us</a></li>
+                    <li><a href="#">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- photo / grid -->
+    <section class="container section" id="photo">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <img class="responsive-img z-depth-3 materialboxed" src="Images/sourdough_compressed.jpg" alt="bread">
+            </div>
+            <div class="col s12 m5 offset-m1 l5 offset-l1">
+                <h2 class="indigo-text text-darken-4">Icon Coffee</h2>
+                <p>Icon Coffee is an independent coffee shop focussing on specialty coffee and sourdough bread. We have dine-in and order-in takeaway services</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 push-m6 l6 push-l7">
+                <img class="responsive-img z-depth-3 materialboxed" src="Images/sourdough_compressed.jpg" alt="bread">
+            </div>
+            <div class="col s12 m6 pull-m6 l6 pull-l6 center-align">
+                <h2 class="indigo-text text-darken-4">Icon Coffee</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eligendi rerum in, iste corrupti
+                    voluptas maiores illum consectetur quam accusamus repellat, aspernatur itaque hic labore odio,
+                    quaerat aperiam esse perferendis?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <img class="responsive-img z-depth-3 materialboxed" src="Images/sourdough_compressed.jpg" alt="bread">
+            </div>
+            <div class="col s12 m6 l5 offset-l1">
+                <h2 class="indigo-text text-darken-4">Icon Coffee</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos saepe reiciendis, atque, odit
+                    aspernatur iste esse quasi facere quidem, mollitia dignissimos accusamus eligendi nemo non error!
+                    Expedita, laudantium consequatur!</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- parallax -turn off parallax for small screens?--->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="Images/coffee_beans_compressed.jpg" alt="coffee_cup">
+        </div>
+    </div>
+    <!-- opening times -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m10 offset-m1 10 offset-l1">
+                <h2 class="indigo-text text-darken-4 center">Opening Times</h2>
+                <ul class="collection with-header">
+                    <li class="collection-header"><span class="secondary-content indigo-text">Incorrect Hours? Let Us
+                            Know!
+                            <a href="#contact" class="secondary-content">
+                                <i class="material-icons indigo-text">email</i>
+                            </a>
+                        </span>Hours may differ on holidays</li>
+                    
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">07:00 - 17:00</span>Monday
+                        </li>
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">07:00 - 17:00</span>Tuesday
+                        </li>
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">07:00 - 17:00</span>Wednesday
+                        </li>
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">07:00 - 17:00</span>Thursday
+                        </li>
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">07:00 - 17:00</span>Friday
+                        </li>
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">08:00 - 17:00</span>Saturday
+                        </li>
+                        <li class="collection-item">
+                            <span class="secondary-content black-text">08:00 - 17:00</span>Sunday
+                        </li>
+                    </ul>   
+            </div>
+        </div>
+    </div>
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="Images/coffee_table_large _compressed.jpg" alt="coffee_cup">
+        </div>
+    </div>
+    <!--Recruitment-->
+    <section class="section container scrollspy" id="recruitment">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Job Opportunities</h2>
+                <h3 class="indigo-text text-darken-4">Barista</h3>
+                <p>We are looking for an enthusiastic individual to join our team as a Barista. 1 year of experience is
+                    preferable. Please enquire for more details.</p>
+            </div>
+            <div class="col s8 offset-s2 l5 offset-l2">
+                <img class="responsive-img z-depth-3 materialboxed" src="Images/barista_compressed.jpg" alt="bread">
+            </div>
+        </div>
+    </section>
+    <!-- contact form -->
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+                <p>We are a local business on the High Street of Hampton Hill, Richmond Borough, established in 2021. We'd love for you to come in and have a chat with us!</p>
+                <a class="indigo-text" href="tel:7845384324">Give us a call at (44)7845384324 </a>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <!--Every input field requires a separate div-->
+                <form action="">
+                    <div class="input-field">
+                        <!-- Use class prefix to position the icon before the input field-->
+                        <i class="material-icons indigo-text prefix">email</i>
+                        <input type="email" id="email">
+                        <!-- Labels should follow the input tag-->
+                        <label class="indigo-text" for="email">Your email address</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons indigo-text prefix">create</i>
+                        <textarea name="message" class="materialize-textarea" id="message"></textarea>
+                        <label class="indigo-text" for="message">Your Message</label>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Map-->
+    <section class="section container" id="main">
+        <div class="row">
+            <div class="video-container">
+                    <iframe style="border: 0" allowfullscreen="true" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5406.792108897994!2d-0.3667741282210909!3d51.4241100383254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b2da74d98af%3A0x3f12043faa225318!2sIcon%20Coffee!5e0!3m2!1sen!2suk!4v1640780640004!5m2!1sen!2suk" ></iframe>
+            </div>
+        </div>
+    </section>  
+    <!-- footer -->
+    <footer class="page-footer grey darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>Footer</h5>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque magnam illo dicta dolorem! Sunt
+                    est at accusantium illo earum esse amet corrupti pariatur quaerat iusto ex nihil qui, voluptas
+                    rerum.</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Social Media</h5>
+                    <ul>
+                        <li>
+                            <a href="" class="grey-text text-lighten-3">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                        <li>
+                            <a href="" class="grey-text text-lighten-3">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <a href="" class="grey-text text-lighten-3">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-3">
+            <div class="container center-align">&copy; Icon Coffee 2021</div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav()
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+
+</html>
