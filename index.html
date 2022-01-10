@@ -14,21 +14,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <title>Icon ~ Coffee</title>
     <style>
-        header {
-            background: url(Images/hero_banner.jpg);
+        /* header {
+            background: url(Images/mixkit-coffee-in-green-mug-818_compressed.mp4);
             background-size: cover;
             background-position: center;
             min-height: 800px;
+        } */
+
+        #example {
+            top: 5px;
+            right: 0;
         }
 
         .brand-logo {
-            top: 5px;
+            margin-top: 10px;
+            width: 140px;
+            height: auto;
         }
 
         .section {
             padding: 4vw 0 4vw 0;
         }
-
+        @media screen and (min-width: 1900px) {
+            .video-wrapper {
+                display: none;
+            }
+        }
         @media screen and (max-width: 670px) {
             header {
                 min-height: 300px;
@@ -40,11 +51,11 @@
 <body class="blue-grey lighten-5">
     <!-- navbar -->
     <header>
-        <nav class="nav-wrapper transparent">
-            <div class="container">
-                <img src="Images/icon_coffee_small.png" class="brand-logo"></img>
+        <nav class="nav-wrapper grey darken-4">
+            <div id="example" class="container">
+                <img src="Images/icon_coffee.png" class="brand-logo"></img>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                    <i class="material-icons">menu</i>
+                    <i class="material-icons white-text">menu</i>
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">Menu</a></li>
@@ -78,9 +89,15 @@
                 </ul>
             </div>
         </nav>
+        <div class="video-wrapper">
+            <video class="responsive-video" autoplay muted loop alt="coffee_mug.jpg">
+              <source src="/Icon_Coffee/Images/mixkit-coffee-in-green-mug-818_compressed.mp4" >
+              Your browser does not support the video tag.
+            </video>
+          </div>
     </header>
     <!-- photo / grid -->
-    <section class="container section" id="photo">
+    <section class="container section " id="photo">
         <div class="row">
             <div class="col s12 m6 l6">
                 <img class="responsive-img z-depth-3 materialboxed" src="Images/sourdough_compressed.jpg" alt="bread">
